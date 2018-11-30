@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>广告主</title>
+		<link rel="stylesheet" type="text/css" href="/cdn/css/dap_user_login.css" />
+		<script type="text/javascript" src="/req/api/frontres/JsRes/dapApiErrCode"></script>
+		<script type="text/javascript" src="/cdn/js/openlibs/jquery.js"></script>
+		<script type="text/javascript" src="/cdn/js/et-js/et_base.js"></script>
+		<script type="text/javascript" src="/cdn/js/dap_net.js"></script>
+		<script type="text/javascript" src="/cdn/js/dap_util.js"></script>
+		<script src="/cdn/js/user/dap_user_login.js"></script>
+	</head>
+	<body scroll="no" style="overflow: hidden;">
+		<img src="/cdn/img/biz/login_bg_user.jpg" class="login_bg" />
+		<div class="login_area">
+			<img src="/cdn/img/biz/login_title.png" style="margin-top: 48px;" />
+			<input type="text" class="login_input" id="txt_user_login_user_name" placeholder="请输入手机号" style="margin-top: 30px;" />
+			<input type="password" class="login_input" id="txt_user_login_password" placeholder="请输入登录密码" />
+			<div class="verifycode_container">
+				<input type="text" class="login_input" id="txt_user_login_auth_code" placeholder="请输入验证码" style="margin-left: 56px;" />
+				<img src="/req/link/user/User/captcha" id="txt_user_login_img_auth" class="verifycode_img" style="margin-right: 56px;" />
+			</div>
+			<div class="login_err_tip" id="tip_user_login_error_text"></div>
+			<input type="button" class="btn_login" value="立即登录" id="btn_user_login_submit"/>
+			<a href="/req/page/user/User/forgetPassword" style="margin-top: 10px;" target="_blank">忘记密码？</a>
+		</div>
+	</body>
+</html>
